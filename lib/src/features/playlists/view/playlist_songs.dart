@@ -44,7 +44,6 @@ class PlaylistSongs extends StatelessWidget {
         index: index,
         cells: [
           DataCell(
-            // Add HoverableSongPlayButton
             HoverableSongPlayButton(
               hoverMode: HoverMode.overlay,
               song: playlist.songs[index],
